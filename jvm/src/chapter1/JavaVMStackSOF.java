@@ -1,4 +1,4 @@
-package jvm;
+package chapter1;
 
 /**
  * -Xss:128k
