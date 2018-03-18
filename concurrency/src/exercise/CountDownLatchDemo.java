@@ -1,4 +1,4 @@
-package architectcourse.concurrency;
+package exercise;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
@@ -28,9 +28,9 @@ public class CountDownLatchDemo implements Runnable{
 			threadPool.execute(demo);
 		}
 		
-		//µÈ´ý¼ì²é
+		//ï¿½È´ï¿½ï¿½ï¿½ï¿½
 		count.await();
-		//·¢Éä»ð¼ý
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.println("fire");
 		threadPool.shutdown();
 	}

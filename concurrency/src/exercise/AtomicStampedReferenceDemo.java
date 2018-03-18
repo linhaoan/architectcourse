@@ -1,3 +1,4 @@
+package exercise;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
 /**

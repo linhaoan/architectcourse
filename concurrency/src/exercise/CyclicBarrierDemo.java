@@ -1,4 +1,4 @@
-package architectcourse.concurrency;
+package exercise;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

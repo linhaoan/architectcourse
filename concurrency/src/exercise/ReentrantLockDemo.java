@@ -1,3 +1,5 @@
+package exercise;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ReentrantLockDemo implements Runnable{
